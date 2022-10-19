@@ -13,7 +13,7 @@ namespace CSharp.Fundamentos {
             Console.WriteLine($"Comprou sorvete? {comprouSorvete}");
 
             var comprouTv32 = executouTrabalho1 ^ executouTrabalho2;
-            Console.WriteLine($"Comprou Tb 32? {comprouTv32}");
+            Console.WriteLine($"Comprou Tv 32? {comprouTv32}");
 
             Console.WriteLine($"Mais saudável? {!comprouSorvete}");
         }
