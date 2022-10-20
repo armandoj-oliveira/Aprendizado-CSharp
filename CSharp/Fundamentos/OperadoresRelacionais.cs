@@ -1,8 +1,11 @@
 ﻿using System;
 
-namespace CSharp {
-    class OperadoresRelacionais {
-        public static void Executar() {
+namespace CSharp.Fundamentos
+{
+    class OperadoresRelacionais
+    {
+        public static void Executar()
+        {
 
             Console.Write("Digite a nota do aluno: ");
             // double nota = 6.0;

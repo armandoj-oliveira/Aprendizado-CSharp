@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 
 using CSharp.Fundamentos;
+using CSharp.EstruturasDeControle;
 
-namespace CSharp {
+namespace CSharp
+{
     class Program {
         static void Main(string[] args) {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
@@ -19,6 +21,17 @@ namespace CSharp {
                 {"Operadores Aritméticos - Fundamentos", OperadoresAritmeticos.Executar},
                 {"Operadores Relacionais - Fundamentos", OperadoresRelacionais.Executar},
                 {"Operadores Lógicos - Fundamentos", OperadoresLogicos.Executar},
+                {"Operadores de Atribuição - Fundamentos", OperadoresAtribuicao.Executar},
+                {"Operadores Unários - Fundamentos", OperadoresUnarios.Executar},
+                {"Operador Ternário - Fundamentos", OperadorTernario.Executar},
+
+                // Estruturas de Controle
+                {"Estrutura If - Estruturas de Controle", EstruturaIf.Executar},
+                {"Estrutura If/Else - Estruturas de Controle", EstruturaIfElse.Executar},
+                {"Estrutura If/Else/If - Estruturas de Controle", EstruturaIfElseIf.Executar},
+                {"Estrutura Switch - Estruturas de Controle", EstruturaSwitch.Executar},
+                {"Estrutura While - Estruturas de Controle", EstruturaWhile.Executar},
+                {"Estrutura Do While - Estruturas de Controle", EstruturaDoWhile.Executar},
             });
 
             central.SelecionarEExecutar();        
