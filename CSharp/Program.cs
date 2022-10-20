@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using CSharp.Fundamentos;
 using CSharp.EstruturasDeControle;
 using CSharp.ClassesEMetodos;
+using CSharp.Colecoes;
 
 namespace CSharp
 {
@@ -50,8 +51,22 @@ namespace CSharp
                 {"Readonly - Classes e Métodos", Readonly.Executar},
                 {"Enum - Classes e Métodos", ExemploEnum.Executar},
                 {"Struct - Classes e Métodos", ExemploStruct.Executar},
+                {"Struct VS Classes - Classes e Métodos", StructVSClasses.Executar},
+                {"Valor VS Referência - Classes e Métodos", ValorVSReferencia.Executar},
+                {"Paramêtros por Referência - Classes e Métodos", ParametrosPorReferencia.Executar},
+                {"Paramêtros com Valor Padrão - Classes e Métodos", ParametroPadrao.Executar},
 
-            });
+                // Coleções
+                {"Array - Coleções", Colecoes.Array.Executar},
+                {"List - Coleções", ColecoesList.Executar},
+                {"ArrayList - Coleções", ColecoesArrayList.Executar},
+                {"Set - Coleções", ColecoesSet.Executar},
+                {"Queue - Coleções", ColecoesQueue.Executar},
+                {"Igualdade - Coleções", Igualdade.Executar},
+                {"Stack - Coleções", ColecoesStack.Executar},
+                {"Dictionary - Coleções", ColecoesDictionary.Executar},
+
+            }); ;
 
             central.SelecionarEExecutar();        
         }
