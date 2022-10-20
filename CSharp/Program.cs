@@ -3,12 +3,15 @@ using System.Collections.Generic;
 
 using CSharp.Fundamentos;
 using CSharp.EstruturasDeControle;
+using CSharp.ClassesEMetodos;
 
 namespace CSharp
 {
     class Program {
         static void Main(string[] args) {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
+
+                //Fundamentos
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Comentarios - Fundamentos", Comentarios.Executar},
                 {"Variaveis e Constantes - Fundamentos", VariaveisEConstantes.Executar},
@@ -32,6 +35,22 @@ namespace CSharp
                 {"Estrutura Switch - Estruturas de Controle", EstruturaSwitch.Executar},
                 {"Estrutura While - Estruturas de Controle", EstruturaWhile.Executar},
                 {"Estrutura Do While - Estruturas de Controle", EstruturaDoWhile.Executar},
+
+                // Classes e Métodos
+                {"Membros - Classes e Métodos", Membros.Executar},
+                {"Construtores - Classes e Métodos", Construtores.Executar},
+                {"Métodos com Retorno - Classes e Métodos", MetodosComRetorno.Executar},
+                {"Métodos Estáticos - Classes e Métodos", MetodosEstaticos.Executar},
+                {"Atributos Estáticos - Classes e Métodos", AtributosEstaticos.Executar},
+                {"Desafio Atributos - Classes e Métodos", DesafioAtributos.Executar},
+                {"Params - Classes e Métodos", Params.Executar},
+                {"Parametros Nomeados - Classes e Métodos", ParametrosNomeados.Executar},
+                {"Getters e Setters - Classes e Métodos", GetSet.Executar},
+                {"Props - Classes e Métodos", Props.Executar},
+                {"Readonly - Classes e Métodos", Readonly.Executar},
+                {"Enum - Classes e Métodos", ExemploEnum.Executar},
+                {"Struct - Classes e Métodos", ExemploStruct.Executar},
+
             });
 
             central.SelecionarEExecutar();        
