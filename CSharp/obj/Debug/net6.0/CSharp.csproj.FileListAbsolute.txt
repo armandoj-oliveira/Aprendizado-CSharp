@@ -28,3 +28,6 @@ C:\Users\ajvdo\Aprendizado-CSharp\Aprendizado-CSharp\CSharp\obj\Debug\net6.0\ref
 C:\Users\ajvdo\Aprendizado-CSharp\Aprendizado-CSharp\CSharp\obj\Debug\net6.0\CSharp.pdb
 C:\Users\ajvdo\Aprendizado-CSharp\Aprendizado-CSharp\CSharp\obj\Debug\net6.0\CSharp.genruntimeconfig.cache
 C:\Users\ajvdo\Aprendizado-CSharp\Aprendizado-CSharp\CSharp\obj\Debug\net6.0\ref\CSharp.dll
+C:\Users\ajvdo\Aprendizado-CSharp\Aprendizado-CSharp\CSharp\bin\Debug\net6.0\Encapsulamento.dll
+C:\Users\ajvdo\Aprendizado-CSharp\Aprendizado-CSharp\CSharp\bin\Debug\net6.0\Encapsulamento.pdb
+C:\Users\ajvdo\Aprendizado-CSharp\Aprendizado-CSharp\CSharp\obj\Debug\net6.0\CSharp.csproj.CopyComplete

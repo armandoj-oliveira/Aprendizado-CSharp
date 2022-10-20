@@ -5,6 +5,7 @@ using CSharp.Fundamentos;
 using CSharp.EstruturasDeControle;
 using CSharp.ClassesEMetodos;
 using CSharp.Colecoes;
+using CSharp.OO;
 
 namespace CSharp
 {
@@ -69,6 +70,15 @@ namespace CSharp
                 {"Igualdade - Coleções", Igualdade.Executar},
                 {"Stack - Coleções", ColecoesStack.Executar},
                 {"Dictionary - Coleções", ColecoesDictionary.Executar},
+                
+                // Orientação a Objetos
+                {"Herança - Orientação a Objetos", Heranca.Executar},
+                {"Construtor This - Orientação a Objetos", ConstrutorThis.Executar},
+                {"Encapsulamneto - Orientação a Objetos", OO.Encapsulamento.Executar},
+                {"Polimorfismo - Orientação a Objetos", Polimorfismo.Executar},
+                {"Classe Abstrata - Orientação a Objetos", Abstract.Executar},
+                {"Interface - Orientação a Objetos", Interface.Executar},
+                {"Sealed - Orientação a Objetos", Sealed.Executar},
 
             }); ;
 
