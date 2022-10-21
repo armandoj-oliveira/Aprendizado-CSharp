@@ -6,6 +6,7 @@ using CSharp.EstruturasDeControle;
 using CSharp.ClassesEMetodos;
 using CSharp.Colecoes;
 using CSharp.OO;
+using CSharp.MetodosEFuncoes;
 
 namespace CSharp
 {
@@ -79,6 +80,14 @@ namespace CSharp
                 {"Classe Abstrata - Orientação a Objetos", Abstract.Executar},
                 {"Interface - Orientação a Objetos", Interface.Executar},
                 {"Sealed - Orientação a Objetos", Sealed.Executar},
+
+                // Métodos e Funções
+                {"Lambda - Métodos e Funções", ExemploLambda.Executar},
+                {"Delegate com Lambda - Métodos e Funções", LambdasDelegate.Executar},
+                {"Usando Delegates - Métodos e Funções", UsandoDelegate.Executar},
+                {"Delegates com Funções Anônimas - Métodos e Funções", DelegateFuncAnonima.Executar},
+                {"Passando Delegates como Parâmetro - Métodos e Funções", DelegatesComParametros.Executar},
+                {"Métodos de Extensão - Métodos e Funções", MetodosDeExtensao.Executar},
 
             }); ;
 
